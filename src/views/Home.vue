@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="projects">
+      <ul>
+        <h2>
+          A project using an Arduino to blink an LED, this project is in two parts: <br />
+          </h2>
+        <li>
+          <router-link to="/blinkingled">
+            First part using a delay function
+          </router-link>
+        </li>
+        <li>
+          Second part using the internal counter register of the Arduino
+        </li>
+      </ul>
+    </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
