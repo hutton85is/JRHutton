@@ -2,12 +2,14 @@
   <div id="app">
     <Header />
     <Navbar />
+    <Main />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Navbar from './components/Navbar.vue'
+import Main from './components/Main.vue'
 
 export default {
   name: 'app',
