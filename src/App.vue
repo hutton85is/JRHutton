@@ -68,4 +68,9 @@ li {
   color: #041b31;
 }
 
+#codeimg {
+  max-width: 100%;
+  max-height: auto;
+}
+
 </style>
