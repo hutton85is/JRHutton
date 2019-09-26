@@ -63,7 +63,7 @@ li {
   list-style-position: inside;
 }
 
-.main a{
+.main a {
   font-weight: bolder;
   color: #041b31;
 }
