@@ -14,5 +14,16 @@
 
     <h2>Setup and Code</h2>
     We will be using pin 2 as output on the Arduino. Hookup LED ground pin to ground on the Arduino and the other end to pin 2 of the Arduino.<p/>
+    <vue-embed-gist gist-id="37725e0c3d02885df5ab73d4abed5ba4"
+    file="BlinkingLED_DelayTimer.c" />
   </div>
 </template>
+
+<script>
+import VueEmbedGist from 'vue-embed-gist'
+export default {
+  components: {
+    VueEmbedGist
+  }
+}
+</script>
