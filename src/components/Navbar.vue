@@ -11,6 +11,5 @@
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
-      <router-view id="routerview" />
     </div>
 </template>
