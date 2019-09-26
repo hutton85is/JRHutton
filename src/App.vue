@@ -36,10 +36,6 @@ export default {
   color: #041b31;
 }
 
-#nav a.router-link-exact-active {
-  font-weight: bolder;
-}
-
 #routerview {
   padding-top: 60px;
   padding-left: 50px;
@@ -65,6 +61,11 @@ export default {
 li {
   padding-left: 25px;
   list-style-position: inside;
+}
+
+.main a{
+  font-weight: bolder;
+  color: #041b31;
 }
 
 </style>
