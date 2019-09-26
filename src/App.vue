@@ -15,7 +15,8 @@ export default {
   name: 'app',
   components: {
     Header,
-    Navbar
+    Navbar,
+    Main
   }
 }
 </script>
@@ -31,12 +32,11 @@ export default {
 }
 
 #nav a {
-  font-weight: bold;
+  font-weight: bolder;
   color: #041b31;
 }
 
 #nav a.router-link-exact-active {
-  text-decoration: underline;
   font-weight: bolder;
 }
 

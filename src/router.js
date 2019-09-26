@@ -7,11 +7,13 @@ import BlinkingLED from './views/BlinkingLED.vue'
 Vue.use(Router)
 
 export default new Router({
+
+  mode: 'history',
+
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: { name: 'home' }
     },
     {
       path: '/home',
